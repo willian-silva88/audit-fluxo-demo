@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audit Fluxo · Conferência de baixas</title>
+  <link rel="stylesheet" href="/estilo.css">
+  <script src="/painel.js" defer></script>
+</head>
+<body>
+  <header class="topo">
+    <div class="moldura marca"><span class="monograma" aria-hidden="true">AF</span><strong>Audit Fluxo</strong><span class="selo">DEMO · DADOS FICTÍCIOS</span></div>
+  </header>
+  <main class="moldura">
+    <section class="abertura" aria-labelledby="titulo">
+      <div>
+        <p class="rotulo">OPERAÇÕES FINANCEIRAS / AUDITORIA</p>
+        <h1 id="titulo">Conferência de baixas</h1>
+        <p>Cruze documentos solicitados com registros de baixa e revise os vínculos.</p>
+      </div>
+      <div class="acoes">
+        <button type="button" id="carregar" class="primario">Carregar dados de exemplo</button>
+        <button type="button" id="exportar" disabled>Exportar Excel</button>
+      </div>
+    </section>
+    <div id="mensagem" class="mensagem" role="status" hidden></div>
+    <section id="vazio" class="vazio">
+      <p class="rotulo">01 / INICIAR</p>
+      <h2>Abra o lote fictício</h2>
+      <p>A amostra inclui baixas simples, permuta, filial ausente e documentos sem correspondência.</p>
+    </section>
+    <div id="painel" hidden>
+      <section id="indicadores" class="indicadores" aria-label="Indicadores do lote"></section>
+      <div class="grade">
+        <section class="cartao fila" aria-labelledby="titulo-fila">
+          <div class="cabecalho-cartao">
+            <p class="rotulo">01 / SOLICITAÇÃO</p>
+            <h2 id="titulo-fila">Documentos</h2>
+            <label class="filtro" for="filtro">Exibir
+              <select id="filtro">
+                <option value="">Todos</option>
+                <option value="conferir">Requer conferência</option>
+                <option value="encontrado">Baixa encontrada</option>
+                <option value="nao_encontrado">Sem correspondência</option>
+                <option value="revisado">Vínculo conferido</option>
+              </select>
+            </label>
+          </div>
+          <div id="documentos"></div>
+        </section>
+        <section class="cartao detalhe" id="detalhe" aria-label="Detalhe do documento"></section>
+      </div>
+    </div>
+    <footer>Localize as baixas, revise os vínculos e exporte o mapa. <strong>Uma baixa não é um comprovante bancário.</strong></footer>
+  </main>
+</body>
+</html>

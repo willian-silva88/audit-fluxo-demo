@@ -1,0 +1,8 @@
+code;branch;amount;payment date;account;account code;document type;exchange;title;gross amount;interest;discount;fine
+DOC-DEMO-01;DEMO-SUL;1240,00;2026-04-12;Banco Exemplo · Conta A;CONTA-DEMO-A;2;;TIT-DEMO-A;1240,00;0;0;0
+DOC-DEMO-02;DEMO-SUL;1200,00;2026-04-14;Banco Exemplo · Conta A;CONTA-DEMO-A;2;;TIT-DEMO-B;1190,00;10,00;0;0
+DOC-DEMO-02;DEMO-SUL;650,00;2026-04-15;Conta transitória · Simulação;CONTA-DEMO-T;2;Sim;TIT-DEMO-C;650,00;0;0;0
+DOC-DEMO-03;DEMO-SUL;780,00;2026-04-15;Banco Exemplo · Conta A;CONTA-DEMO-A;2;;TIT-DEMO-D;780,00;0;0;0
+DOC-DEMO-03;DEMO-NORTE;780,00;2026-04-16;Banco Modelo · Conta B;CONTA-DEMO-B;2;;TIT-DEMO-E;780,00;0;0;0
+DOC-DEMO-04;DEMO-NORTE;510,00;2026-04-16;Banco Modelo · Conta B;CONTA-DEMO-B;3;;TIT-DEMO-F;510,00;0;0;0
+DOC-DEMO-06;DEMO-NORTE;960,00;2026-04-18;Banco Modelo · Conta B;CONTA-DEMO-B;2;;TIT-DEMO-G;960,00;0;0;0

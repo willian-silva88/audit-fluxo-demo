@@ -1,0 +1,7 @@
+supplier;invoice;code;branch;amount;issue date
+Oficina Exemplo;NF-DEMO-01;DOC-DEMO-01;DEMO-SUL;1240,00;2026-04-03
+Insumos de Mostra;NF-DEMO-02;DOC-DEMO-02;DEMO-SUL;1850,00;2026-04-05
+Serviços de Ensaio;NF-DEMO-03;DOC-DEMO-03;;780,00;2026-04-06
+Equipamentos de Teste;NF-DEMO-04;DOC-DEMO-04;DEMO-NORTE;510,00;2026-04-07
+Embalagens Modelo;NF-DEMO-05;DOC-DEMO-05;DEMO-SUL;320,00;2026-04-08
+Transporte Simulado;NF-DEMO-06;DOC-DEMO-06;DEMO-NORTE;960,00;2026-04-09
